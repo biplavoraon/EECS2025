@@ -29,16 +29,16 @@
       // Find the distance between now and the count down date
       var distance = countDownDate - now;
 
-      // // Time calculations for days, hours, minutes and seconds
-      // var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      // var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      // var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      // // Display the result in the element with id="demo"
-      // document.getElementById("countdown_timer_1").innerHTML = days + " days " + hours + " hours "
-      // + minutes + " minutes ";
-      // document.getElementById("countdown_timer_2").innerHTML = seconds + " seconds to go !";      
+      // Display the result in the element with id="demo"
+      document.getElementById("countdown_timer_1").innerHTML = days + " days " + hours + " hours "
+      + minutes + " minutes ";
+      document.getElementById("countdown_timer_2").innerHTML = seconds + " seconds to go !";      
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -187,9 +187,9 @@
         <div class="col-12 col-md-8 m-auto m-lg-0 col-lg-4 pt-5 pt-lg-0">
           <h3 style="text-align: center;">
             <br>
-            <span class='glow stylish' id='countdown_message'>WE ARE LIVE!!</span> <br>
-            <!-- <span class='glow stylish' id='countdown_timer_1'></span><br>
-            <span class='glow stylish' id='countdown_timer_2'></span> -->
+            <!-- <span class='glow stylish' id='countdown_message'>WE ARE LIVE!!</span> <br> -->
+            <span class='glow stylish' id='countdown_timer_1'></span><br>
+            <span class='glow stylish' id='countdown_timer_2'></span>
           </h3>
         </div>
       </div>
@@ -773,32 +773,28 @@
       <hr style="height: 1px;background-color: #ccc;border: none;">
       <div class="row text-center justify-content-sm-center no-gutters">
         <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <h5 class="mt-5">Dipanjan Gope</h5>
-          <p>dipanjan@iisc.ac.in</p>
-        </div>
-        <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <h5 class="mt-5">Konduri Aditya</h5>
-          <p>konduriadi@iisc.ac.in</p>
-        </div>
-        <div class="col-12 col-sm-8 col-md-3 m-auto">
           <h5 class="mt-5">Rahul Saladi</h5>
           <p>saladi@iisc.ac.in</p>
         </div>
         <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <h5 class="mt-5">Sundeep Prabhakar Chepuri</h5>
-          <p>spchepuri@iisc.ac.in</p>
+          <h5 class="mt-5">Vishnu M​</h5>
+          <p>vishnumi@iisc.ac.in</p>
         </div>
         <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <h5 class="mt-5">Sriram Ganapathy</h5>
-          <p>sriramg@iisc.ac.in</p>
+          <h5 class="mt-5">Pushpak Jagtap</h5>
+          <p>pushpak@iisc.ac.in</p>
         </div>
         <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <h5 class="mt-5">Ramachandran Ponnuswamy</h5>
-          <p>prama@iisc.ac.in</p>
+          <h5 class="mt-5">Pratosh AP</h5>
+          <p>pratosh@iisc.ac.in</p>
         </div>
         <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <h5 class="mt-5">Vaibhav Katewa</h5>
-          <p>vkatewa@iisc.ac.in</p>
+          <h5 class="mt-5">Chirag Jain</h5>
+          <p>chirag@iisc.ac.in</p>
+        </div>
+        <div class="col-12 col-sm-8 col-md-3 m-auto">
+          <h5 class="mt-5">Arup Polley</h5>
+          <p>aruppolley@iisc.ac.in</p>
         </div>
       </div>
       <hr style="height: 1px;background-color: #ccc;border: none;">
@@ -825,13 +821,13 @@
         <div class="col-md-3 col-sm-12 text-left">
           <h5>Faculty Volunteers</h5>
           <ul class="list-unstyled  ">
-            <li>Dipanjan Gope (ECE)</li>
-            <li>Konduri Aditya (CDS)</li>
             <li>Rahul Saladi (CSA)</li>
-            <li>Sundeep Prabhakar Chepuri (ECE)</li>
-            <li>Sriram Ganapathy (EE)</li>
-            <li>Ramachandran P (ESE)</li>
-            <li>Vaibhav Katewa (RBCCPS/ECE)</li>
+            <li>Vishnu M​ (EE)</li>
+            <li>Pushpak Jagtap (RBCCPS)</li>
+            <li>Pratosh AP (ECE)</li>
+            <li>Chirag Jain (CDS)</li>
+            <li>Arup Polley (ESE)</li>
+            
           </ul>
         </div>
         <div class="col-md-6 col-sm-12 text-left">
