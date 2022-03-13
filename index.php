@@ -1,13 +1,13 @@
 <?php
 require_once('collage/display/config.php');
 shuffle($images_details);
-$base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
+$base_path_url = "https://eecs.iisc.ac.in/EECS2022/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>EECS RESEARCH STUDENTS SYMPOSIUM - 2021, Division of EECS (Electrical, Electronics and Computer Sciences), Indian Institute of Science, IISc Bangalore</title>
+  <title>EECS RESEARCH STUDENTS SYMPOSIUM - 2022, Division of EECS (Electrical, Electronics and Computer Sciences), Indian Institute of Science, IISc Bangalore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -23,7 +23,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script> 
     // Set the date we're counting down to
-    var countDownDate = new Date("May 8, 2021 19:10:00").getTime();
+    var countDownDate = new Date("April 9, 2022 19:10:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -70,7 +70,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
       <div class="container" style="max-width: 90%;">
         <a class="navbar-brand mr-1" href="index.php">
           <img src="resources/images/logos/iisc-seal.jpg" alt="" style="width: 60px;">
-          <strong>EECS 2021 </strong>
+          <strong>EECS 2022 </strong>
           <!--  <span>Indian Institute of Science Bangalore</span> -->
           <span class="content-desktop"> | IISc Bangalore</span>
           <span class="content-mobile">IISc Bangalore</span>
@@ -97,9 +97,9 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown20" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Schedule</a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown20">
-                <a class="dropdown-item" href="schedule-may7.html">Day 1 (May 7)</a>
-                <!-- <a class="dropdown-item" href="http://www.rbccps.org/cyphyss2020/schedule/">Cyber-Physical Systems Symposium - 2020</a> -->
-                <a class="dropdown-item" href="schedule-may8.html">Day 2 (May 8)</a>
+                <a class="dropdown-item" href="schedule-apr8.html">Day 1 (April 8)</a>
+                <!-- <a class="dropdown-item" href="http://cps.iisc.ac.in/cyphyss2020/schedule/">Cyber-Physical Systems Symposium - 2020</a> -->
+                <a class="dropdown-item" href="schedule-apr9.html">Day 2 (April 9)</a>
               </div>
             </li>
             <!-- <li class="nav-item dropdown">
@@ -119,13 +119,13 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
               <a class="nav-link" href="legacy.html">Legacy</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="resources/EECS_2021_symposium_program.pdf">Program</a>
+              <a class="nav-link" target="_blank" href="resources/EECS_2022_symposium_program.pdf">Program</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="resources/EECS_2021_brochure.pdf">Info. Brochure</a>
+              <a class="nav-link" target="_blank" href="resources/EECS_2022_brochure.pdf">Info. Brochure</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="resources/EECS_2021_BookofAbstracts.pdf">Book of Abstracts</a>
+              <a class="nav-link" target="_blank" href="resources/EECS_2022_BookofAbstracts.pdf">Book of Abstracts</a>
             </li>
             <li class="nav-item">
               <a href="https://forms.office.com/r/pgZj93WrPD" target="_blank" class="btn btn-primary nav-link text-white">Register &gt;</a>
@@ -152,8 +152,8 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
       <!-- TITLE OF SYMPOSIUM AND DATES -->
       <div class="row  justify-content-center align-items-center d-flex-row text-center h-100">
         <div class="col-12 col-md-12 h-50 ">
-          <h1 class="font-weight-bold   text-white  mb-2 mt-0"> EECS RESEARCH STUDENTS SYMPOSIUM - 2021</h1>
-          <h4 class=" text-white">May 7 and 8, 2021</h4>
+          <h1 class="font-weight-bold   text-white  mb-2 mt-0"> EECS RESEARCH STUDENTS SYMPOSIUM - 2022</h1>
+          <h4 class=" text-white">April 8 and 8, 2022</h4>
           <!--<p>
                 <a href="schedule.html" class="btn btn-info btn-lg mt-5 mb-5 ">View Full Schedule &gt;</a>
               </p>-->
@@ -169,25 +169,25 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
       <!-- DAYS AND LINKS -->
       <div class="row text-left text-white align-items-start mt-5">
         <div class="col-12 col-md-6 col-lg-4">
-          <h3 style="text-align: center;">May 7 (Day 1)
+          <h3 style="text-align: center;">April 8 (Day 1)
             <!-- <span class="btn btn-danger" style="float:right;">Live link To Be Updated</span> -->
             <!-- <a class="btn btn-danger" href="https://zoom.us/j/98101873619?pwd=L1BwSzdaWDkwVVE1SkR1aldyd3pVUT09" target="_blank" style="float:right;">Join Live !</a> -->
             <!-- <a class="btn btn-danger" href="https://drive.google.com/drive/folders/1xDlqFCdR8ulgkv8mDFygUEX741oYCtGW?usp=sharing" style="float:right;">Watch Recorded Videos</a> -->
           </h3>
           <hr style="height: 1px;background-color: #ccc;border: none;">
           <h3  style="text-align: center; color: red" class="text-h3">
-            <a href="schedule-may7.html" target="_blank" style="color: yellow">Schedule &<br> Live Session Links</a>
+            <a href="schedule-apr8.html" target="_blank" style="color: yellow">Schedule &<br> Live Session Links</a>
           </h3>
         </div>
         <div class="col-12 col-md-6 col-lg-4 pt-4 pt-md-0">
-          <h3 style="text-align: center;">May 8 (Day 2)
+          <h3 style="text-align: center;">April 9 (Day 2)
             <!-- <span class="btn btn-danger" style="float:right;">Live link To Be Updated</span> -->
             <!-- <a class="btn btn-danger" href="https://zoom.us/j/98101873619?pwd=L1BwSzdaWDkwVVE1SkR1aldyd3pVUT09" style="float:right;">Join Live !</a> -->
             <!-- <a class="btn btn-danger" href="https://drive.google.com/drive/folders/1sEh1xTL8uysvE0zC7uvrgO-pWBvgMHt0?usp=sharing" style="float:right;">Watch Recorded Videos</a> -->
           </h3>
           <hr style="height: 1px;background-color: #ccc;border: none;">
           <h3  style="text-align: center; " class="text-h3">
-            <a href="schedule-may8.html" target="_blank" style="color: yellow">Schedule &<br> Live Session Links</a>
+            <a href="schedule-apr9.html" target="_blank" style="color: yellow">Schedule &<br> Live Session Links</a>
           </h3>
           <!-- SECTION : STUDENT BEST PAPER AWARD -->
           <!-- <h5 class="text-h4">
@@ -210,17 +210,17 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
         </div> -->
         <div class="col-12 col-md-3 col-lg-3">
           <h3  style="text-align: center; " class="text-h3 btn btn-outline-success">
-            <a href="resources/EECS_2021_brochure.pdf" target="_blank" style="color: white">EECS 2021 Brochure</a>
+            <a href="resources/EECS_2022_brochure.pdf" target="_blank" style="color: white">EECS 2022 Brochure</a>
           </h3>
         </div>
         <div class="col-12 col-md-3 col-lg-3">
           <h3  style="text-align: center;" class="text-h3 btn btn-outline-success">
-            <a href="resources/EECS_2021_BookofAbstracts.pdf" target="_blank" style="color: white">Book of Abstracts</a>
+            <a href="resources/EECS_2022_BookofAbstracts.pdf" target="_blank" style="color: white">Book of Abstracts</a>
           </h3>
         </div>
         <div class="col-12 col-md-3 col-lg-3">
           <h3  style="text-align: center; " class="text-h3 btn btn-outline-success">
-            <a href="resources/EECS_2021_symposium_program.pdf" target="_blank" style="color: white">Symposium Program</a>
+            <a href="resources/EECS_2022_symposium_program.pdf" target="_blank" style="color: white">Symposium Program</a>
           </h3>
         </div>
         <div class="col-12 col-md-3 col-lg-3">
@@ -255,7 +255,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
         <!-- style="max-width: 1680px;" -->
         <div class="row mt-0 mb-2 pt-5 d-flex justify-content-center">
           <div class="col-md-3 col-sm-12">
-            <img src="resources/images/others/EECS_2021_Flyer.jpg" style="max-width: 100%;">
+            <img src="resources/images/others/EECS_2022_Flyer.jpg" style="max-width: 100%;">
           </div>
           <div class="col-md-4 col-sm-12 " style="text-align: center;">
             <h1 class="blog-post-title">About</h1>
@@ -263,7 +263,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
              Welcome to the twelfth EECS Research Students Symposium. This year, the symposium will happen online.
             </p>
             <p class="lead text-justify">
-               EECS-2021 is an initiative of the <a href="https://eecs.iisc.ac.in">Division of EECS</a> and is primarily a forum for presentations by senior research students (expecting to graduate in 2021) involving the Departments of Computational and Data Sciences <a href="http://cds.iisc.ac.in/">(CDS)</a>, Computer Science and Automation <a href="http://csa.iisc.ac.in">(CSA)</a>, Electrical Communication Engineering <a href="https://ece.iisc.ac.in/">(ECE)</a>, Electrical Engineering <a href="http://www.ee.iisc.ac.in/">(EE)</a>, Electronic Systems Engineering <a href="http://dese.iisc.ac.in">(ESE)</a> and the Robert Bosch Centre for Cyber-Physical Systems (<a href="http://www.rbccps.org/">RBCCPS</a>).
+               EECS-2022 is an initiative of the <a href="https://eecs.iisc.ac.in">Division of EECS</a> and is primarily a forum for presentations by senior research students (expecting to graduate in 2022) involving the Departments of Computational and Data Sciences <a href="http://cds.iisc.ac.in/">(CDS)</a>, Computer Science and Automation <a href="http://csa.iisc.ac.in">(CSA)</a>, Electrical Communication Engineering <a href="https://ece.iisc.ac.in/">(ECE)</a>, Electrical Engineering <a href="http://www.ee.iisc.ac.in/">(EE)</a>, Electronic Systems Engineering <a href="http://dese.iisc.ac.in">(ESE)</a> and the Robert Bosch Centre for Cyber-Physical Systems (<a href="http://cps.iisc.ac.in/">RBCCPS</a>).
             </p>
             <p class="lead text-justify">
               We invite researchers, faculty members, industry professionals, and research students working in EECS to participate and provide their feedback. We especially invite the alumni of the division to join us for this event.
@@ -328,7 +328,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
         <div class="col-lg-2 col-md-4">
           <div class="member">
             <div class="pic"><img src="resources/images/logos/rbccps.png" alt=""></div>
-            <span><a href="http://www.rbccps.org/">Robert Bosch Centre for Cyber-Physical Systems </a></span>
+            <span><a href="http://cps.iisc.ac.in/">Robert Bosch Centre for Cyber-Physical Systems </a></span>
           </div>
         </div>
         <hr>
@@ -659,7 +659,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
         </div>
         <div class="col-12 col-sm-8 col-md-2 m-auto">
           <div class="member">
-            <div class="pic"><img src="https://phfi.org/wp-content/uploads/2021/05/Giri.jpg" alt=""></div>
+            <div class="pic"><img src="https://phfi.org/wp-content/uploads/2022/05/Giri.jpg" alt=""></div>
             <h4><a href="https://phfi.org/member/giridhar-r-babu/">Giridhara R Babu</a></h4>
             <span>PHFI</span>
           </div>
@@ -928,7 +928,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
                     <a href="http://dese.iisc.ac.in/" target="_blank">Electronic Systems Engineering</a>
                   </li>
                   <li>
-                    <a href="http://www.rbccps.org/" target="_blank">Robert Bosch Centre for Cyber-Physical Systems</a>
+                    <a href="http://cps.iisc.ac.in/" target="_blank">Robert Bosch Centre for Cyber-Physical Systems</a>
                   </li>
                 </ul>
             </div>
@@ -952,7 +952,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
           <hr>
           <div class="row f-flex justify-content-between" style="justify-content: space-between;">
             <div class="col-md-8 text-xs-center  text-left text-secondary my-1">
-              <p class="mt-2  text-dark"> &copy; Copyright 2021  All Rights Reserved |
+              <p class="mt-2  text-dark"> &copy; Copyright 2022  All Rights Reserved |
                 <a class=" " href="http://eecs.iisc.ac.in" target="_blank">Division of EECS</a>
               </p>
             </div>
@@ -963,7 +963,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2021/";
                   <a href="https://twitter.com/eecsiisc" role="button" class=" p-2 m-2 btn btn-light">
                     <i class="fab fa-twitter fa-lg  " aria-hidden="true"></i>
                   </a>
-                  <a href="https://www.facebook.com/EECS-IISc-Research-Students-Symposium-2021-105756351649015" role="button" class=" p-2 m-2 btn btn-light">
+                  <a href="https://www.facebook.com/EECS-IISc-Research-Students-Symposium-2022-105756351649015" role="button" class=" p-2 m-2 btn btn-light">
                     <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
                   </a>
                   <a href=" https://www.linkedin.com/company/eecs-iisc-research-students-symposium" role="button" class=" p-2 m-2 btn btn-light">
