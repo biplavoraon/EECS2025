@@ -1,0 +1,9 @@
+{
+	"title" : "Designing interventions in networked models of epidemic spread",
+	"photo_link" : "https://engineering.virginia.edu/sites/default/files/styles/faculty_headshot/public/anil-cropped.jpg?itok=rzmC0AEr",
+	"speaker_link": "https://engineering.virginia.edu/faculty/anil-vullikanti",
+	"speaker" : "Anil Vullikanti",
+	"abstract" : "The spread of epidemics is a very complex process, and stochastic diffusion models on networks have been found useful, especially when modeling their spread in large and heterogeneous populations, where individual and community level behaviors need to be represented. A common problem in such models is to understand how to control the spread of an epidemic by interventions such as vaccination (which can be modeled as node removal) and social distancing (which can be modeled as edge removal). The decision space of interventions is very complex, in general, as they need to be made over time, taking into account resource constraints and behavioral changes. A broad range of interventions have been proposed, and we will summarize these briefly from a network science perspective, along with the underlying assumptions, their performance, and the computational challenges, which arise even in the simplest of settings. We will also discuss some of the current techniques for these problems, which provide the first steps towards solutions with approximation guarantees, including reducing the spectral radius,  and stochastic optimization.",
+	"bio" : ""
+}
+

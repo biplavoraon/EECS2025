@@ -1,0 +1,9 @@
+{
+	"title" : "DataSetu Confidential Data Sharing and Processing Framework",
+	"photo_link" : "",
+	"speaker_link": "https://arun-babu.github.io/",
+	"speaker" : "Arun Babu",
+	"abstract" : "This talk presents the architecture of DataSetu for confidential data sharing. DataSetu is an open platform for allowing sharing of data (public as well as confidential) between various parties. This talk focuses on authentication, authorization, and use of confidential compute in sharing data. Some use cases of DataSetu will also be presented.",
+	"bio" : "Arun Babu is a researcher working in the areas of software engineering and cybersecurity. His main areas of interests are brute-force resistant cryptography, software quality, and AAA (Authentication, Authorization, and Accounting). He obtained his Ph.D from Indira Gandhi Center for Atomic Research (IGCAR), Kalpakkam."
+}
+
