@@ -762,11 +762,11 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2022/";
       <div class="row">
         <div class="col-md-10 col-12">
           <p class="lead mb-3 mt-3 text-h3">Industry Sponsor</p>
-          <p class="text-h3 lead"><h5><a target="_blank" href="https://accel.com/india-home">Accel Ventures</a><h5></p>
+          <p class="text-h3 lead"><h5><a target="_blank" href="https://www.qualcomm.com/company/locations/india">Qualcomm India</a><h5></p>
         </div> 
         <div class="col-md-2 col-6 text-right">
           <div class="card">
-            <img class="card-img-top shadow" src="resources/images/logos/Accel_Logo_Black.png" alt="Profile">
+            <img class="card-img-top shadow" src="resources/images/logos/qualcomm-logo.png" alt="Profile">
           </div>
         </div>   
         <hr>
@@ -849,25 +849,21 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2022/";
           <div class="row">
             <div class="col-md-6 col-sm-12 text-left">
               <ul class="list-unstyled  text-center">
-                <li>Aditya Rastogi (CDS)</li>
-                <li>Tejan Karmali (CDS)</li>
-                <li>Ramakrishnan K (CSA)</li>
-                <li>Rameesh Paul (CSA)</li>
-                <li>Alok Joshi (ECE)</li>
-                <li>Anand Kumar (ECE)</li>
-                <li>Varun Krishna (EE)</li> 
+                <li>Manan Tayal (RBCCPS)</li>
+                <li>Nilay Srivastava (RBCCPS)</li>
+                <li>Lokesh Bansal (RBCCPS)</li>
+                <li>Sameer (CDS)</li>
+                <li>Akash (CDS)</li>
+                <li>Vishwa (EE)</li> 
               </ul>
             </div>
             <div class="col-md-6 col-sm-12 text-left">
               <ul class="list-unstyled  text-center">
-                <li>Anand Kumar R (EE)</li>
-                <li>Himanshu Bhusan (EE)</li>
-                <li>Tutan Debnath (ESE)</li>
-                <li>Prerna Arote (ESE)<li>
-                <li>Nishchal Hoysal (RBCCPS)</li>
-                <li>Dhanaprakaash G (RBCCPS)</li>
-                <li>Aniruddh Sanjoy Sikdar (RBCCPS)</li>
-                <li>Harini V (RBCCPS)</li>
+                <li>Dharani Moka (EE)</li>
+                <li>Venky (EE)</li>
+                <li>Shreeparna (CDS)</li>
+                <li>Atasi<li>
+                <li>Utkarsh (CSA)</li>
               </ul>
             </div>
           </div>
