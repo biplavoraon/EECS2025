@@ -1,9 +1,8 @@
 {
-	"title" : "DataSetu Confidential Data Sharing and Processing Framework",
-	"photo_link" : "",
-	"speaker_link": "https://arun-babu.github.io/",
-	"speaker" : "Arun Babu",
-	"abstract" : "This talk presents the architecture of DataSetu for confidential data sharing. DataSetu is an open platform for allowing sharing of data (public as well as confidential) between various parties. This talk focuses on authentication, authorization, and use of confidential compute in sharing data. Some use cases of DataSetu will also be presented.",
-	"bio" : "Arun Babu is a researcher working in the areas of software engineering and cybersecurity. His main areas of interests are brute-force resistant cryptography, software quality, and AAA (Authentication, Authorization, and Accounting). He obtained his Ph.D from Indira Gandhi Center for Atomic Research (IGCAR), Kalpakkam."
+	"title" : "Learning to synthesize image and video contents",
+	"photo_link" : "resources/images/invited_speakers/hsuan.jpg",
+	"speaker_link": "https://www.ucmerced.edu/content/ming-hsuan-yang",
+	"speaker" : "Prof. Ming-Hsuan Yang",
+	"abstract" : " In this talk, I will first review our recent work on synthesizing image and video contents. The underlying theme is to exploit different priors to synthesize diverse content with robust formulations.  I will then present our recent work on image synthesis, video synthesis, and frame interpolation. I will also present our recent work on learning to synthesize images with limited training data. When time allows, I will also discuss some recent findings for other vision tasks.",
+	"bio" : "Ming-Hsuan Yang is a professor at UC Merced and a research scientist with Google. He received Google Faculty Award in 2009 and Faculty Early Career Development (CAREER) award from the National Science Foundation in 2012. Yang received paper awards at UIST 2017, CVPR 2018, and ACCV 2018.  He served as a program co-chair for ACCV 2016 and ICCV 2019. Yang is a Fellow of the IEEE and ACM."
 }
-

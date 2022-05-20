@@ -1,8 +1,8 @@
 {
-	"title" : "Computational integrity: succinct proofs in cryptography",
-	"photo_link" : "resources/images/faculty_speakers/chaya_csa.jpeg",
-	"speaker_link": "https://www.csa.iisc.ac.in/~chaya/",
-	"speaker" : "Chaya Ganesh",
-	"abstract" : "A common denominator of conventional financial systems, trusted execution environments (like SGX), blockchain technology, and ZK rollups is the promise of computational integrity -- doing the right computation, even when there is no trust. In this talk, we will define computational integrity and show how one can verify the correctness of a computation much more efficiently than having to re-perform the computation. We will introduce the notion of succinct proof systems that allow a prover to convince a verifier about the correctness of computation such that verification is exponentially faster than the computation itself. We will see applications of SNARKs (Succinct Non-interactive ARguments of Knowledge), a kind of succinct arguments in decentralized systems like blockchain technology for both privacy and scalability issues, and outline the design principle underlying SNARK constructions.",
-	"bio" : "Chaya is an Assistant Professor in the Department of Computer Science and Automation at Indian Institute of Science . Her research interests are in Cryptography and Security. Before joining IISc, she was a post-doctoral researcher in the Crypto group at Aarhus University. She received her PhD from NYU's Courant Institute of Mathematical Sciences."
+	"title" : "Transceiver Design for Cellular: Challenges and Directions",
+	"photo_link" : "resources/images/invited_speakers/krishnaswamy_t.jpeg",
+	"speaker_link": "https://www.linkedin.com/in/krishnaswamy-t-2529548/",
+	"speaker" : "Krishnaswamy T.",
+	"abstract" : "The talk will cover on the key design challenges facing Transceiver design for Cellular Standards (2G-5G NR). Starting with a short recap of the Cellular Spectrum and Standards and the unique design challenges it imposes on the Transceiver. Finally we delve into some key blocks and problem statements that the audience can mull over for future research.",
+	"bio" : "Passed out of IIT KGP in 2003 with a President’s Silver Medal. Worked with Texas Instruments from 2003-14. While at TI worked on transceivers in sub-micron CMOS processes for GPS, BT and WLAN and on fast switching Fractional-N RF PLL’s for PMR Systems . Led the development of a 30dBm Integrated WiFi PA on 45nm CMOS while at TI. From 2014’ to present day working at Qualcomm on designing Multi-Mode, Multi-Band Transceivers primarily for Celullar Standards (2G-5G) as well as IoT radios. Research Interests include digitally assisted RF chains and fast settling low spurious emission RF PLL’s. Presently leading a team of 35 RFIC design engineers working on Cellular/IoT radios and discrete RFIC to achieve sub-1dB Noise Figure for Sub-6GHz Cellular bands. Holds 19 patents and 3 IEEE publications (2 at ISSCC and 1 ISCAS)."
 }

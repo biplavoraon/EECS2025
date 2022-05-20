@@ -1,9 +1,8 @@
 {
-	"title" : "Spatio-temporal Prediction of Epidemic Spread: Data, Models and Ensembles",
-	"photo_link" : "resources/images/invited_speakers/deepak_subramani.png",
-	"speaker_link": "http://cds.iisc.ac.in/faculty/deepakns/",
-	"speaker" : "Deepak Subramani",
-	"abstract" : "The Covid-19 pandemic has seen a flurry of mathematical predictive models. Broadly, several researchers have adapted classical approaches to epidemic spread modeling such as compartment models and agent-based models for forecasting Covid-19 spread in India. We developed and implemented a novel predictive modeling framework for the spread of infectious diseases using high-dimensional partial differential equations in this context. A scalar function representing the infected population is defined on a high-dimensional space and its evolution over all the directions is described by a population balance equation (PBE). New infections are introduced among the susceptible population from a non-quarantined infected population based on their interaction, adherence to distancing norms, hygiene levels, and other societal interventions. Moreover, recovery, death, immunity, and all parameters mentioned above are modeled on the high-dimensional space. Prognostic estimates of Covid-19 spread using a six-dimensional (time, 2D space, infection severity, duration of infection, and population age) PBE are presented to epitomize the capabilities and features of the above framework. Further, ensembles with different scenarios and parameter ranges are presented. Such scenario analysis provides insights that could be used for science-informed policy planning.",
-	"bio" : ""
+	"title" : "Gesture and air-writing recognition with high resolution SONAR",
+	"photo_link" : "resources/images/invited_speakers/anil.jpg",
+	"speaker_link": "https://www.linkedin.com/in/a-anil-kumar-69b4a597/anil.jpg",
+	"speaker" : " A Anil Kumar",
+	"abstract" : "Human computer interaction based on gestures forms an important and popular approach among the various other modalities. While camera-based gesture recognition is widely used, privacy restrictions and other limitations such as dependence on lighting prohibit its usage in several applications. Lately, the SONAR-based approach is gaining a lot of attention as microphones and speakers are ubiquitous. In this talk, we will describe our recent works on gesture and air writing recognition based on SONAR. Further, our economical spiked neural network-based classifier implementation shall also be briefly provided. ",
+	"bio" : "A. Anil Kumar received his Ph.D. degree in electrical and electronic engineering from Nanyang Technological University, Singapore in 2011. Presently, he is a Senior Scientist with TCS Research & Innovation, Bangalore, India; Prior to TCS, he was with Accord software and systems Pvt. Ltd, Bangalore, India during 2002 - 2005, Panasonic Singapore laboratories pte. Ltd, Singapore during 2010 - 2011 and with Temasek Laboratories@Nanyang Technological University, Singapore during 2011 - 2015. His research interests lie in the broad areas of signal processing, communications and machine learning. "
 }
-

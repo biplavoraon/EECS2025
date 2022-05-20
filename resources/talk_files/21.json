@@ -1,9 +1,8 @@
 {
-	"title" : "Designing Optimal Vaccination Policies for COVID-19",
-	"photo_link" : "https://ashoka.edu.in/static/images/media/2019/08/06/t1565066093_123_small.jpg",
-	"speaker_link": "https://ashoka.edu.in/faculty#!/gautam-menon-1526",
-	"speaker" : "Gautam Menon",
-	"abstract" : "I will summarize our ongoing work on optimal models for vaccination, including the use of epidemiological compartmental models, network models and agent-based models. Incorporating different SARS-CoV-2 variants as well as understanding the differential impact of vaccinations on those with prior infections and vaccination history is a current priority. I will describe how we address these questions.",
-	"bio" : ""
+	"title" : "An Introduction to Reflecting Intelligent Surfaces for 5G and Beyond",
+	"photo_link" : "resources/images/invited_speakers/ganesan.jpg",
+	"speaker_link": "https://www.linkedin.com/in/tganesan/",
+	"speaker" : "Ganesan Thiagarajan",
+	"abstract" : "The milli-meter wave carriers used in 5G are typically used as direct line of sight (LOS) medium due to the high pathloss at those frequencies. This also reduces the richness in their corresponding multi- path channels. This not only restricts the availability of high data rate to users who are not in LOS path, but also reduces the effectiveness of spatial multiplexing. However, if the multi-paths in the propagation channel between the gNB and UE can be controlled to have higher processing gain (such as passive focusing gain) or create richness in the multi-path, additional performance gains can be obtained. This talk gives an intuitive understanding on RIS and some of the challenges in implementing them in a heterogenous network with regular gNBs and controllable reflecting surfaces such as RIS.  ",
+	"bio" : "Dr. Ganesan Thiagarajan is currently CTO of MMRFIC Technology Pvt. Ltd, Bangalore. With more than 25 years of experience in telecom/semiconductor devices industry, he had delivered multiple products in WLAN, cellular infrastructure and mm-wave Radar systems. He assumed various roles at Motorola, Texas Instruments and Arraycomm Inc., including system architect, Algorithm lead and R&D lead. He was elected to Senior Member of Technical Staff (SMTS) during his tenure at Texas Instruments in 2015 — less than 5% of the technical population gets this award. He holds 21 granted patents in USPTO and published several IEEE journal and conference papers. His research interests are mm-wave communication systems, Joint Radar Communication, Machine learning for signal processing and quantum error correction codes. He is a senior member of IEEE and chair for IEEE ComSoc Bangalore chapter. "
 }
-

@@ -1,8 +1,9 @@
 {
-	"title" : "Thanks Giving",
-	"photo_link" : "resources/images/felicitations/srikant.jpeg",
-	"speaker_link": "https://www.csa.iisc.ac.in/~srikant/",
-	"speaker" : "Prof. Y.N. Srikant",
-	"abstract" : "-NA-",
-	"bio" : "Prof. Srikant is currently the Dean of the Faculty of Engineering at the Indian Institute of Science. Earlier he was chairperson of the Department of Computer Science and Automation during 2001-2005. Having completed his Ph.D. at the Department of CSA, he has been on the faculty of the Department since 1986. Prof. Srikant’s areas of expertise include compiling techniques, program analysis, and parallel programming languages. In these areas, he has authored a large number of papers in leading journals and conferences. He has graduated 20 Ph.D. students and 27 Master’s students by Research, and about 100 M.Tech. project students."
+	"title" : "Blockchains, Consensus and mechanisms for trusted coordination",
+	"photo_link" : "resources/images/invited_speakers/ittai_abraham.jpg",
+	"speaker_link": "https://research.vmware.com/researchers/ittai-abraham",
+	"speaker" : "Ittai Abraham",
+	"abstract" : "Consensus is a fundamental problem in Computer Science that captures the essence of our ability to create trust and cooperate despite adverse conditions. This talk provides a brief overview of two amazing stories. The first is how such a simple problem, defined over 40 years ago, is still an active area of study and of innovation, both in theoretical research and in more applied system research. The second is how results in Computer Science that seemed completely impractical just 10 or 20 years ago are now at the forefront of the Blockchain and Cryptocurrency revolution and are redefining how large-scale cooperation and governance can emerge.",
+	"bio" : "Ittai Abraham is a Senior Researcher at VMware Research. His work spans from the theory of algorithms through the foundations of distributed computing to practical aspects in industrial research, algorithm engineering, distributed systems and blockchain technology."
 }
+

@@ -1,9 +1,8 @@
 {
-	"title" : "xxxx",
-	"photo_link" : "xxx",
-	"speaker_link": "xxx",
-	"speaker" : "xxx",
-	"abstract" : "absabsabsabsasb",
-	"bio" : "biobiobiobiobio"
+	"title" : "Title: Image Sensors and Multimedia",
+	"photo_link" : "resources/images/invited_speakers/manish.jpg",
+	"speaker_link": "https://in.linkedin.com/in/manish-goel-2aa4a14",
+	"speaker" : "Dr. Manish Goel",
+	"abstract" : "We will discuss key challenges for image processing systems for mobile use cases.",
+	"bio" : "Manish got his B.Tech from IITD in 1994 and MS and PhD from Univ of Illinois at Urbana-Champaign in 2000. Manish worked at Texas Instruments Dallas for 14 years and was elevated to Distinguished Member to Technical Staff. Manish has been working in Samsung for last 8 years, first 4 years in Dallas and recent 4 years at SSIR. Manish received UIUC Young Alumni Achievement Award in 2011. Manish's research interests are in signal processing architectures, communication and multimedia systems. Manish has 60+ US patents granted under his name."
 }
-
