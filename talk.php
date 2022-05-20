@@ -89,13 +89,10 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2022/";
               <a class="nav-link" target="_blank" href="resources/EECS_2022_symposium_program.pdf">Program</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="resources/EECS_2022_brochure.pdf">Info. Brochure</a>
-            </li>
-            <li class="nav-item mr-3">
               <a class="nav-link" target="_blank" href="resources/EECS_2022_BookofAbstracts.pdf">Book of Abstracts</a>
             </li>
             <li class="nav-item">
-              <a href="https://forms.office.com/r/pgZj93WrPD" target="_blank" class="btn btn-primary nav-link text-white">Register &gt;</a>
+              <a href="https://forms.office.com/r/3JDT7EUX6x" target="_blank" class="btn btn-primary nav-link text-white">Register &gt;</a>
             </li> 
           </ul> 
         </div>
@@ -210,7 +207,7 @@ $base_path_url = "https://eecs.iisc.ac.in/EECS2022/";
               <ul class="list-unstyled list-light">
                 <li>
                   <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Registration Link">
-                    <a href="https://forms.office.com/r/pgZj93WrPD">Registration</a>
+                    <a href="https://forms.office.com/r/3JDT7EUX6x">Registration</a>
                   </span>
                 </li>
                 <!-- <li>

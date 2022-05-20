@@ -18,7 +18,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script> 
     // Set the date we're counting down to
-    var countDownDate = new Date("April 9, 2022 19:10:00").getTime();
+    var countDownDate = new Date("April 8, 2022 9:30:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -36,16 +36,20 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("countdown_timer_1").innerHTML = days + " days " + hours + " hours "
-      + minutes + " minutes ";
-      document.getElementById("countdown_timer_2").innerHTML = seconds + " seconds to go !";      
+            
 
       // If the count down is finished, write some text
       if (distance < 0) {
-        clearInterval(x);
+        // clearInterval(x);
         // document.getElementById("countdown_timer_1").innerHTML = "";
         // document.getElementById("countdown_timer_2").innerHTML = "";
-        document.getElementById("countdown_message").innerHTML = "That's all folks !! <br> See you next year."
+        document.getElementById("countdown_message").innerHTML = "Welcome to EECS Symposium"
+      }
+      else{
+        document.getElementById("countdown_timer_1").innerHTML = days + " days " + hours + " hours "
+        + minutes + " minutes ";
+        document.getElementById("countdown_timer_2").innerHTML = seconds + " seconds to go !";
+
       }
     }, 1000);
 
@@ -116,10 +120,10 @@
               <a class="nav-link" target="_blank" href="resources/EECS_2022_symposium_program.pdf">Program</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="resources/EECS_2022_brochure.pdf">Info. Brochure</a>
+              <a class="nav-link" target="_blank" href="resources/EECS_2022_BookofAbstracts.pdf">Book of Abstracts</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="resources/EECS_2022_BookofAbstracts.pdf">Book of Abstracts</a>
+              <a class="nav-link" target="_blank" href="awards.html">Awards</a>
             </li>
             <li class="nav-item">
               <a href="https://forms.office.com/r/3JDT7EUX6x" target="_blank" class="btn btn-primary nav-link text-white">Register &gt;</a>
@@ -190,11 +194,7 @@
       <div class="row text-center text-white align-items-center mt-5">
         <!-- <div class="col-12 col-md-3 col-lg-3">
         </div> -->
-        <div class="col-12 col-md-3 col-lg-3">
-          <h3  style="text-align: center; " class="text-h3 btn btn-outline-success">
-            <a href="resources/EECS_2022_brochure.pdf" target="_blank" style="color: white">EECS 2022 Brochure</a>
-          </h3>
-        </div>
+
         <div class="col-12 col-md-3 col-lg-3">
           <h3  style="text-align: center;" class="text-h3 btn btn-outline-success">
             <a href="resources/EECS_2022_BookofAbstracts.pdf" target="_blank" style="color: white">Book of Abstracts</a>
@@ -207,7 +207,7 @@
         </div>
         <div class="col-12 col-md-3 col-lg-3">
           <h3  style="text-align: center; " class="text-h3 btn btn-outline-success">
-            <a href="awards.html" target="_blank" style="color: white">Best Presentation Awards</a>
+            <a href="awards.html" target="_blank" style="color: white">Best Student Presentation Awards</a>
           </h3>
         </div>
         <!-- <div class="col-12 col-md-3 col-lg-3">
@@ -236,8 +236,11 @@
       <div class="container" style="max-width: 95%">
         <!-- style="max-width: 1680px;" -->
         <div class="row mt-0 mb-2 pt-5 d-flex justify-content-center">
-          <div class="col-md-3 col-sm-12">
-            <!-- <img src="resources/images/others/EECS_2021_Flyer.jpg" style="max-width: 100%;"> -->
+          <div class="col-md-3 col-sm-12" style="overflow: auto; max-height: 570px">
+            <br>
+            <br>
+            <br>
+            <img src="resources/EECS_2022_Flyer.jpeg" style="max-width: 100%;">
           </div>
           <div class="col-md-4 col-sm-12 " style="text-align: center;">
             <h1 class="blog-post-title">About</h1>
@@ -276,7 +279,7 @@
           <div class="col-lg-2 col-md-4">
             <div class="member">
               <div class="pic"><img src="resources/images/logos/cds.png" alt=""></div>
-              <span><a href="http://cds.iisc.ac.in/">Computational and Data Science </a></span>
+              <span><a href="http://cds.iisc.ac.in/">Computational and Data Sciences </a></span>
             </div>
           </div>
         <div class="col-lg-2 col-md-4">
@@ -392,16 +395,16 @@
     <div class="container" style="text-align:center;">
       <div class="row">
         <div class="col-lg-12 col-md-12 text-center">
-          <h2> Speakers </h2>
+          <h2> Plenary Speakers </h2>
         </div>
       </div>
       <hr>
       <div class="row text-center justify-content-sm-center no-gutters">
         <div class="col-12 col-sm-8 col-md-3 m-auto">
           <div class="member">
-            <div class="pic"><img src="https://researcher.watson.ibm.com/researcher/photos/520.jpg" alt=""></div>
-            <h4><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-stf">Tanveer F. Sydea</a></h4>
-            <span>IBM Fellow, Chief Scientist, Medical Sieve Radiology Grand Challenge <br> Almaden Research Center, San Jose, CA, USA</span>
+            <div class="pic"><img src="resources/images/invited_speakers/tanveer_sydea.jpg" alt=""></div>
+            <h4><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-stf">Tanveer F. Syeda-mahmood</a></h4>
+            <span>IBM Fellow, Chief Scientist, <br> Almaden Research Center, San Jose, CA, USA</span>
           </div>
         </div>
 
@@ -413,87 +416,236 @@
           </div>
         </div>
 
-        <!-- <div class="col-12 col-sm-8 col-md-3 m-auto">
-          <div class="member">
-            <div class="pic"><img src="resources/images/plenary_speakers/madhav.jpeg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=10"> Madhav Marathe </a></h4>
-            <span> University of Virginia</span>
-          </div>
-        </div>
-
         <div class="col-12 col-sm-8 col-md-3 m-auto">
           <div class="member">
-            <div class="pic"><img src="resources/images/plenary_speakers/tambe.jpg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=8"> Milind Tambe </a></h4>
-            <span>Harvard University & Google Research India</span> -->
-            <!-- <span> Google Research India</span> -->
-          <!-- </div>
-        </div> -->
+            <div class="pic"><img src="resources/images/invited_speakers/k_ananth_krishnan.png" alt=""></div>
+            <h4><a href="https://www.tcs.com/blog-authors/ananthkrishnan#:~:text=C%2DSuite%20Reinvention-,Ananth%20Krishnan,Advisory%20boards%2C%20and%20Government%20committees."> K Ananth Krishnan</a></h4>
+            <span>Executive Vice President <br>& Chief Technology Officer, <br>Tata Consultancy Services(TCS)</span>
+          </div>
+        </div>
 
       </div>
       <hr>
     </div>
 
     <!-- FACULTY TALKS -->
-    <!--<div class="container" style="max-width: 90%;">
+    <div class="container" style="max-width: 90%;">
       <div class="row">
         <div class='col-sm-12 text-center'><h2>Faculty Speakers</h2></div>
       </div>
       <hr>
-       <hr style="height: 1px;background-color: #ccc;border: none;"> -->
-      <!-- <div class="row text-center justify-content-sm-center no-gutters">
+       <!-- <hr style="height: 1px;background-color: #ccc;border: none;"> -->
+      <div class="row text-center justify-content-sm-center no-gutters">
         <div class="col-12 col-sm-8 col-md-2 m-auto">
           <div class="member">
-            <div class="pic"><img src="resources/images/faculty_speakers/phanim_cds.jpeg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=1"> Phani Motamarri </a></h4>
+            <div class="pic"><img src="resources/images/faculty_speakers/konduriadi_cds.jpg" alt=""></div>
+            <h4><a href="http://cds.iisc.ac.in/faculty/konduriadi/"> Konduri Aditya </a></h4>
             <span>CDS</span>
           </div>
         </div>
+
         <div class="col-12 col-sm-8 col-md-2 m-auto">
           <div class="member">
-            <div class="pic"><img src="resources/images/faculty_speakers/chaya_csa.jpeg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=2"> Chaya Ganesh </a></h4>
+            <div class="pic"><img src="resources/images/faculty_speakers/gugan_csa.jpg" alt=""></div>
+            <h4><a href="https://sites.google.com/site/gugancth/"> Gugan Thoppe </a></h4>
             <span>CSA</span>
           </div>
         </div>
+
         <div class="col-12 col-sm-8 col-md-2 m-auto">
           <div class="member">
-            <div class="pic"><img src="resources/images/faculty_speakers/sundeep_ece.jpeg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=3">Sundeep Prabhakar Chepuri</a></h4>
-            <span>ECE</span>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-2 m-auto">
-          <div class="member">
-            <div class="pic"><img src="resources/images/faculty_speakers/vishnu_ee.jpeg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=4">Vishnu Mahadeva Iyer</a></h4>
-            <span>EE</span>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-2 m-auto">
-          <div class="member">
-            <div class="pic"><img src="resources/images/faculty_speakers/arup_ese.jpg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=5"> Arup Polley</a></h4>
+            <div class="pic"><img src="resources/images/faculty_speakers/utsav_ese.png" alt=""></div>
+            <h4><a href="https://banerjeeutsav.github.io/"> Utsav Banerjee </a></h4>
             <span>ESE</span>
           </div>
         </div>
+
         <div class="col-12 col-sm-8 col-md-2 m-auto">
           <div class="member">
-            <div class="pic"><img src="resources/images/faculty_speakers/jishnu_rbccps.jpeg" alt=""></div>
-            <h4><a href="speaker_redirect.php?id=6">Jishnu Keshavan</a></h4>
+            <div class="pic"><img src="resources/images/faculty_speakers/punit_rbccps.jpeg" alt=""></div>
+            <h4><a href="https://www.punitrathore.com/"> Punit Rathore </a></h4>
             <span>RBCCPS</span>
           </div>
         </div>
+
+        
+       
       </div> 
       <hr style="height: 1px;background-color: #ccc;border: none;">
-    </div>-->
+    </div>
     
     <!-- INVITED TALKS -->
-    <!-- <div class="container" style="max-width: 90%;">
+    <div class="container" style="max-width: 90%;">
       <div class="row">
         <div class='col-sm-12 text-center'><h2>Keynote & Industry Speakers</h2></div>
       </div>
       <hr>
+      <div class="row text-center justify-content-sm-center no-gutters">
+        
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/kaushic.jpg" alt=""></div>
+            <h4><a href="https://www.linkedin.com/in/kaushic-k-44677a1/">Kaushic Kalyanaraman</a></h4>
+            <span> Shell PLC</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/anil.jpg" alt=""></div>
+            <h4><a href="https://www.linkedin.com/in/a-anil-kumar-69b4a597/">A Anil Kumar</a></h4>
+            <span> TCS Research</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/ganesan.jpg" alt=""></div>
+            <h4><a href="https://www.linkedin.com/in/tganesan/">Ganesan Thiagarajan</a></h4>
+            <span> MMRFIC</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/mayur.jpeg" alt=""></div>
+            <h4><a href="https://www.linkedin.com/in/mayur-datar-b0a65018">Mayur Datar</a></h4>
+            <span> VP, Flipkart</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/ganesh.png" alt=""></div>
+            <h4><a href="https://www.cse.iitb.ac.in/~ganesh/">Ganesh Ramakrishnan</a></h4>
+            <span>CSE, IIT Bombay</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/rishabh.jpg" alt=""></div>
+            <h4><a href="http://rishabhmehrotra.com/">Rishabh Mehrotra</a></h4>
+            <span>Director of Machine Learning, ShareChat</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/parag.jpg" alt=""></div>
+            <h4><a href="https://www.cse.iitd.ac.in/~parags/">Parag Singla</a></h4>
+            <span>CSE, IIT Delhi</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/anna.jpg" alt=""></div>
+            <h4><a href="https://www.indiascienceandtechnology.gov.in/listingpage/anna-roy">Anna Roy</a></h4>
+            <span>Niti Aayog</span>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/ittai_abraham.jpg" alt=""></div>
+            <h4><a href="https://research.vmware.com/researchers/ittai-abraham">Ittai Abraham</a></h4>
+            <span>VMware Research Group</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/sikhar-patranabis.jpg" alt=""></div>
+            <h4><a href="https://in.linkedin.com/in/sikhar-patranabis-55024750">Sikhar Patranabis</a></h4>
+            <span>IBM Research India, Bangalore</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/akshayaram_srinivasan.jpeg" alt=""></div>
+            <h4><a href="https://www.tifr.res.in/~akshayaram.srinivasan/">Akshayaram Srinivasan</a></h4>
+            <span>School of Technology and Computer Science,
+              <br>TIFR</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/hsuan.jpg" alt=""></div>
+            <h4><a href="https://www.ucmerced.edu/content/ming-hsuan-yang">Ming-Hsuan Yang</a></h4>
+            <span>UC Merced and Google Research</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/kuldeep.jpg" alt=""></div>
+            <h4><a href="https://kuldeepkulkarni.github.io/">Kuldeep Kulkarni</a></h4>
+            <span>Adobe Research</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/nisheeth.jpeg" alt=""></div>
+            <h4><a href="https://in.linkedin.com/in/nisheethlahoti">Nisheeth Lahoti</a></h4>
+            <span>Rephrase AI</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/manoj.jpg" alt=""></div>
+            <h4><a href="https://scholar.google.co.in/citations?user=Xw9BKGIAAAAJ&hl=en">Manoj Kumar</a></h4>
+            <span>NIMHANS, Bangalore</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/sai.jpg" alt=""></div>
+            <h4><a href="https://in.linkedin.com/in/saigunaranjanpelluri">Sai Gunaranjan Pelluri</a></h4>
+            <span>Steradian Semiconductors</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/vinod.jpg" alt=""></div>
+            <h4><a href="https://ieeexplore.ieee.org/author/37564241500">Vinod Menezes</a></h4>
+            <span>Texas Instruments</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/manish.jpg" alt=""></div>
+            <h4><a href="https://in.linkedin.com/in/manish-goel-2aa4a14">Manish Goel</a></h4>
+            <span>Business head for Sensors and LSI, Samsung</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/faculty_speakers/arun_cns.jpg" alt=""></div>
+            <h4><a href="http://www.cns.iisc.ac.in/home/people/sp-arun/"> SP Arun </a></h4>
+            <span>CNS/ECE, IISc</span>
+          </div>
+        </div>
+        <div class="col-12 col-sm-8 col-md-2 m-auto">
+          <div class="member">
+            <div class="pic"><img src="resources/images/invited_speakers/pravein.jpg" alt=""></div>
+            <h4><a href="https://in.linkedin.com/in/praveingk"> Pravein Govindan Kannan </a></h4>
+            <span>IBM Research</span>
+          </div>
+        </div>
+
+
+      </div>
+    </hr>
+    </div>
       <!-- <hr style="height: 1px;background-color: #ccc;border: none;"> -->
       <!-- <div id="invited_talks" class="row text-center justify-content-sm-center no-gutters">
         <div class="col-12 col-sm-8 col-md-2 m-auto">
@@ -717,7 +869,7 @@
 
       </div> 
       <hr style="height: 1px;background-color: #ccc;border: none;">
-    </div>-->
+    </div> -->
   </section>
   
   <section class="bg-light text-dark pt-5 pb-5" id="sponsors">
@@ -733,7 +885,7 @@
         </div>
         <div class="col-md-2 col-6 text-right">
           <div class="card">
-            <img class="card-img-top shadow" src="resources/images/logos/IISc_Seal.jpg" alt="Profile">
+            <a target="_blank" href="https://www.iisc.ac.in"><img class="card-img-top shadow" src="resources/images/logos/IISc_Seal.jpg" alt="Profile"></a>
           </div>
         </div>
       </div>
@@ -741,12 +893,68 @@
 
       <div class="row">
         <div class="col-md-10 col-12">
-          <p class="lead mb-3 mt-3 text-h3">Industry Sponsor</p>
+          <p class="lead mb-3 mt-3 text-h3">Diamond Sponsor</p>
           <p class="text-h3 lead"><h5><a target="_blank" href="https://www.qualcomm.com/company/locations/india">Qualcomm India</a><h5></p>
         </div> 
         <div class="col-md-2 col-6 text-right">
           <div class="card">
-            <img class="card-img-top shadow" src="resources/images/logos/qualcomm-logo.png" alt="Profile">
+            <a target="_blank" href="https://www.qualcomm.com/company/locations/india">
+                <img class="card-img-top shadow" src="resources/images/logos/qualcomm-logo.png" alt="Profile">
+            </a>
+          </div>
+        </div>   
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 col-12">
+          <p class="lead mb-3 mt-3 text-h3">Platinum Sponsors</p>
+          <p class="text-h3 lead"><h5><a target="_blank" href="https://www.tcs.com/research-and-innovation">TCS Research</a><h5></p>
+        </div> 
+        <div class="col-md-2 col-6 text-right">
+          <div class="card">
+            <a target="_blank" href="https://www.tcs.com/research-and-innovation"><img class="card-img-top shadow" src="resources/images/logos/TCR.png" alt="Profile"></a>
+          </div>
+        </div>   
+        <hr>
+        
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 col-12">
+          <p class="lead mb-3 mt-3 text-h3"></p>
+          <p class="text-h3 lead"><h5><a target="_blank" href="https://www.oppo.com/in/newsroom/stories/oppo-is-innovating-in-india/">OPPO</a><h5></p>
+        </div> 
+        <div class="col-md-2 col-6 text-right">
+          <div class="card">
+            <a target="_blank" href="https://www.oppo.com/in/newsroom/stories/oppo-is-innovating-in-india/"><img class="card-img-top shadow" src="resources/images/logos/oppo_wbg.png" alt="Profile"></a>
+          </div>
+        </div>   
+        <hr>
+        
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 col-12">
+          <p class="lead mb-3 mt-3 text-h3">Gold Sponsor</p>
+          <p class="text-h3 lead"><h5><a target="_blank" href="https://www.google.co.in/">Google</a><h5></p>
+        </div> 
+        <div class="col-md-2 col-6 text-right">
+          <div class="card">
+            <a target="_blank" href="https://www.google.co.in/"><img class="card-img-top shadow" src="resources/images/logos/google_logo.png" alt="Profile"></a>
+          </div>
+        </div>   
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 col-12">
+          <p class="lead mb-3 mt-3 text-h3">Silver Sponsor</p>
+          <p class="text-h3 lead"><h5><a target="_blank" href="https://cni.iisc.ac.in/">Centre for Networked Intelligence, IISc</a><h5></p>
+        </div> 
+        <div class="col-md-2 col-6 text-right">
+          <div class="card">
+            <a target="_blank" href="https://cni.iisc.ac.in/"><img class="card-img-top shadow" src="resources/images/logos/CNI_colour.png" alt="Profile"></a>
           </div>
         </div>   
         <hr>
@@ -826,20 +1034,28 @@
             <div class="col-md-6 col-sm-12 text-left">
               <ul class="list-unstyled  text-center">
                 <li>Manan Tayal (RBCCPS)</li>
-                <li>Nilay Srivastava (RBCCPS)</li>
                 <li>Lokesh Bansal (RBCCPS)</li>
-                <li>Sameer (CDS)</li>
-                <li>Akash (CDS)</li>
-                <li>Vishwa (EE)</li> 
+                <li>Abhigyan Dutta (EE)</li>
+                <li>Akash Rodhiya (CDS)</li>
+                <li>Anup Kumar (DESE)</li> 
+                <li>Atasi Panda (CSA)</li>
+                <li>Dharani Moka (EE)</li>
+                <li>Ganesh Kumar Shaw (DESE)</li>
+                <li>Krishna Chaythanya KV (ECE)</li>
+                <li>Koteswar Doddi (ESE)</li>
               </ul>
             </div>
             <div class="col-md-6 col-sm-12 text-left">
               <ul class="list-unstyled  text-center">
-                <li>Dharani Moka (EE)</li>
-                <li>Venky (EE)</li>
-                <li>Shreeparna (CDS)</li>
-                <li>Atasi<li>
-                <li>Utkarsh (CSA)</li>
+                <li>Rishikesh Gajjala (CSA)</li>
+                <li>Sameer Khadatkar (CDS)</li>
+                <li>Sankalp Nakhate (ESE)</li>
+                <li>Saurabh Mahalpure (ESE)<li>
+                <li>Shreeparna Dey (CDS)</li>
+                <li>Utkarsh Joshi (CSA)</li>
+                <li>Venky Kudaravalli (EE)</li>
+                <li>Vishal Kushwaha (RBCCPS)</li>
+                <li>Vishwabandhu Uttam (EE)</li>
               </ul>
             </div>
           </div>
