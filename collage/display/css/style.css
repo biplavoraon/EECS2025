@@ -13,3 +13,61 @@
 	border:0!important;
 	 margin:0px!important;
 }
+
+/* .container{
+	padding-top: 10rem;
+} */
+
+.countdown {
+	/* background-color: black; */
+	color: white;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.countdown div {
+	padding: 20px;
+	margin: 10px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	font-size: 2rem;
+	flex: 1 1 150px;
+	max-width: 200px;
+  }
+  .countdown span {
+	display: block;
+	font-size: 1rem;
+	margin-top: 5px;
+  }
+  .countdown .number {
+	font-weight: bold;
+	font-size: 2.5rem;
+  }
+  @media (max-width: 768px) {
+	.countdown div {
+	  font-size: 1.5rem;
+	  padding: 15px;
+	  flex: 1 1 120px;
+	  max-width: 150px;
+	}
+	.countdown .number {
+	  font-size: 2rem;
+	}
+  }
+  @media (max-width: 480px) {
+	/* .countdown {
+	  flex-direction: column;
+	} */
+	.countdown div {
+	  font-size: 1.2rem;
+	  padding: 10px;
+	  flex: none;
+	  max-width: 100px;
+	}
+	.countdown .number {
+	  font-size: 1.8rem;
+	}
+  }

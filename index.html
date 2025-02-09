@@ -43,12 +43,14 @@
         // clearInterval(x);
         // document.getElementById("countdown_timer_1").innerHTML = "";
         // document.getElementById("countdown_timer_2").innerHTML = "";
-        document.getElementById("countdown_message").innerHTML = "Welcome to EECS Symposium"
+        clearInterval(x);
+        document.querySelector(".countdown").innerHTML = "Welcome to EECS Symposium!";
       }
       else{
-        document.getElementById("countdown_timer_1").innerHTML = days + " days " + hours + " hours "
-        + minutes + " minutes ";
-        document.getElementById("countdown_timer_2").innerHTML = seconds + " seconds to go !";
+        document.getElementById("days").innerText = days;
+        document.getElementById("hours").innerText = hours;
+        document.getElementById("minutes").innerText = minutes;
+        document.getElementById("seconds").innerText = seconds;
 
       }
     }, 1000);
@@ -65,14 +67,14 @@
 </head>
 <body>
   <div id='header_bar'>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top " style="padding: 0px!important;">
-      <div class="container" style="max-width: 90%;">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top " style="padding: 0px!important;">
+      <div class="container" style="max-width: 95%;">
         <a class="navbar-brand mr-1" href="index.html">
           <img src="resources/images/logos/iisc-seal.jpg" alt="" style="width: 60px;">
           <strong>EECS 2025 </strong>
-          <!--  <span>Indian Institute of Science Bangalore</span> -->
-          <span class="content-desktop"> | IISc Bangalore</span>
-          <span class="content-mobile">IISc Bangalore</span>
+           <!-- <span>Indian Institute of Science Bangalore</span> -->
+          <!-- <span class="content-desktop"> | IISc Bangalore</span>
+          <span class="content-mobile">IISc Bangalore</span> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -116,11 +118,11 @@
             <li class="nav-item mr-3">
               <a class="nav-link" href="legacy.html">Legacy</a>
             </li>
-            <li class="nav-item mr-3">
+            <!-- <li class="nav-item mr-3">
               <a class="nav-link" target="_blank" href="#">Program</a>
-            </li>
+            </li> -->
             <li class="nav-item mr-3">
-              <a class="nav-link" target="_blank" href="#">Book of Abstracts</a>
+              <a class="nav-link" target="_blank" href="#">Abstracts</a>
             </li>
             <li class="nav-item mr-3">
               <a class="nav-link" target="_blank" href="#">Awards</a>
@@ -134,7 +136,7 @@
     </nav>
   </div>
 
-  <section class="pt-2 pb-2 mt-0 align-items-center d-flex bg-dark image-container below_header" style="min-height: 100vh; background-size: cover; background-image: url('resources/images/others/iisc-bg.jpg');position: relative; ">
+  <section class="pt-5 pb-2 mt-0 align-items-center d-flex bg-dark image-container below_header" style="min-height: 100vh; background-size: cover; background-image: url('resources/images/others/iisc-bg.jpg');position: relative; ">
     <div class="layer" style="background-color: black; opacity:0.5;
     position: absolute;
     top: 0;
@@ -144,7 +146,7 @@
     <div class="container ">
       
       <!-- TITLE OF SYMPOSIUM AND DATES -->
-      <div class="row  justify-content-center align-items-center d-flex-row text-center h-100">
+      <div class="row pt-5 justify-content-center align-items-center d-flex-row text-center h-100">
         <div class="col-12 col-md-12 h-50 ">
           <h1 class="font-weight-bold   text-white  mb-2 mt-0"> EECS RESEARCH STUDENTS SYMPOSIUM - 2025</h1>
           <h4 class=" text-white">April 3 and 4, 2025</h4>
@@ -153,45 +155,34 @@
       </div>
       
       <!-- DAYS AND LINKS -->
-      <div class="row text-left text-white align-items-start mt-5">
-        <div class="col-12 col-md-6 col-lg-4">
-          <h3 style="text-align: center;">April 3 (Day 1)
-            <!-- <span class="btn btn-danger" style="float:right;">Live link To Be Updated</span> -->
-            <!-- <a class="btn btn-danger" href="https://zoom.us/j/98101873619?pwd=L1BwSzdaWDkwVVE1SkR1aldyd3pVUT09" target="_blank" style="float:right;">Join Live !</a> -->
-            <!-- <a class="btn btn-danger" href="https://drive.google.com/drive/folders/1xDlqFCdR8ulgkv8mDFygUEX741oYCtGW?usp=sharing" style="float:right;">Watch Recorded Videos</a> -->
-          </h3>
-          <hr style="height: 1px;background-color: #ccc;border: none;">
-          <h3  style="text-align: center; color: red" class="text-h3">
-            <a href="#" target="_blank" style="color: yellow">Schedule</a>
-          </h3>
+      
+      <div class="row text-center text-white justify-content-center align-items-center mt-5">
+        <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <h3>April 3 (Day 1)</h3>
+            <hr style="height: 1px;background-color: #ccc;border: none; width: 100%;">
+            <h3 class="text-h3" style="color: red;">
+                <a href="#" target="_blank" style="color: yellow">Schedule</a>
+            </h3>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 pt-4 pt-md-0">
-          <h3 style="text-align: center;">April 4 (Day 2)
-            <!-- <span class="btn btn-danger" style="float:right;">Live link To Be Updated</span> -->
-            <!-- <a class="btn btn-danger" href="https://zoom.us/j/98101873619?pwd=L1BwSzdaWDkwVVE1SkR1aldyd3pVUT09" style="float:right;">Join Live !</a> -->
-            <!-- <a class="btn btn-danger" href="https://drive.google.com/drive/folders/1sEh1xTL8uysvE0zC7uvrgO-pWBvgMHt0?usp=sharing" style="float:right;">Watch Recorded Videos</a> -->
-          </h3>
-          <hr style="height: 1px;background-color: #ccc;border: none;">
-          <h3  style="text-align: center; " class="text-h3">
-            <a href="#" target="_blank" style="color: yellow">Schedule</a>
-          </h3>
-          <!-- SECTION : STUDENT BEST PAPER AWARD -->
-          <!-- <h5 class="text-h4">
-            <a href="awards.html" class="btn text-white btn-outline-success" target="_blank">Student best paper awards</a>
-          </h5> -->
+        
+        <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center pt-4 pt-md-0">
+            <h3>April 4 (Day 2)</h3>
+            <hr style="height: 1px;background-color: #ccc;border: none; width: 100%;">
+            <h3 class="text-h3">
+                <a href="#" target="_blank" style="color: yellow">Schedule</a>
+            </h3>
         </div>
-        <div class="col-12 col-md-8 m-auto m-lg-0 col-lg-4 pt-5 pt-lg-0">
-          <h3 style="text-align: center;">
-            <br>
-            <!-- <span class='glow stylish' id='countdown_message'>WE ARE LIVE!!</span> <br> -->
-            <span class='glow stylish' id='countdown_timer_1'></span><br>
-            <span class='glow stylish' id='countdown_timer_2'></span>
-          </h3>
-        </div>
+    </div>
+
+      <div class="countdown">
+        <div><span class="number" id="days">00</span>Days</div>
+        <div><span class="number" id="hours">00</span>Hours</div>
+        <div><span class="number" id="minutes">00</span>Min</div>
+        <div><span class="number" id="seconds">00</span>Sec</div>
       </div>
       <br><br>
       <!-- buttons for pdfs -->
-      <div class="row text-center text-white align-items-center mt-5">
+      <div class="row text-center text-white justify-content-center align-items-center mt-5">
         <!-- <div class="col-12 col-md-3 col-lg-3">
         </div> -->
 
